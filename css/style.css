@@ -1,0 +1,91 @@
+    body,h1,p,h2{
+    background-color:#DFCBB0
+    }
+
+    h1,p,h2,a{
+    color:#74480C;
+    }
+
+    h1{
+    font-size:7.9vw;
+    letter-spacing:-2px;
+    line-height:110%;
+    position:fixed;
+    top:30vh;
+    left:5%;
+    }
+
+    .text{
+    position:relative;
+    display:block;
+    overflow:hidden;
+    }
+
+    .animate{
+    font-family: 'Open Sans', sans-serif;
+    animation:animate 1.2s cubic-bezier(.2,.6,.2,1);
+    animation-fill-mode:backwards;
+    }
+
+    @-webkit-keyframes animate{0%{
+    -webkit-transform:translateY(100%)}100%{-webkit-transform:translateY(0)}}
+
+    @keyframes animate{0%{transform:translateY(100%)}
+    100%{transform:translateY(0)
+    }}
+
+    .delay{
+    -webkit-animation-delay:.3s;
+    animation-delay:.3}
+
+    .about{
+    position:absolute;
+    top:100vh;
+    left:50%;
+    right:5%;
+    padding-bottom:34vh
+    }
+
+    h2{
+    font-size:32px;
+    font-size:2.2vw;
+    line-height:140%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:10%
+    }
+
+    p{
+    font-size:18px;
+    font-size:1.25vw;
+    line-height:2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:50vh;
+    }
+
+    @media screen and (max-width:667px){
+        h1{
+        font-size:68px;
+        font-size:18vw;
+    }
+
+    @media screen and (max-width:667px){
+        p{
+        font-size:18px;
+        font-size:vw;
+    }
+
+    @media screen and (max-width:667px){
+        h2{
+        font-size:32px;
+        font-size:vw;
+    }
+
+    .about{
+    left:0;
+    right:0;
+    background:#DFCBB0;
+    padding:10%}
+
+    i{
+        right:50vw;
+    }
