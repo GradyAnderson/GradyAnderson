@@ -2,10 +2,13 @@
     background-color:#DFCBB0
     }
 
-    h1,p,h2,a{
+    h1,p,h2,a,h3{
     color:#74480C;
     }
 
+    html{
+        overflow-x:hidden;
+    }
     h1{
     font-size:7.9vw;
     letter-spacing:-2px;
@@ -40,10 +43,19 @@
 
     .about{
     position:absolute;
-    top:100vh;
     left:50%;
-    right:5%;
-    padding-bottom:34vh
+    right:%;
+    padding-bottom:34vh;
+    background:#DFCBB0;
+    padding:10%
+    }
+
+    .bread{
+    font-size:18px;
+    line-height:110%;
+    position:fixed;
+    top:5vh;
+    left:5%;
     }
 
     h2{
@@ -80,12 +92,6 @@
         font-size:vw;
     }
 
-    .about{
-    left:0;
-    right:0;
-    background:#DFCBB0;
-    padding:10%}
-
-    i{
-        right:50vw;
-    }
+.lit{
+    top:20VH;
+}
